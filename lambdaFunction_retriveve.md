@@ -9,3 +9,8 @@ def lambda_handler(event,context):
     print(rollnumber)
     resp = table.get_item(Key={"rollnumber":rollnumber})
     return resp['Item']
+    
+    
+    
+    #data access
+    "email": "$input.params('email')"

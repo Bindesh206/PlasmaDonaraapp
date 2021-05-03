@@ -11,6 +11,5 @@ def lambda_handler(event,context):
     return resp['Item']
     
     
-    
     #data access
     "email": "$input.params('email')"
